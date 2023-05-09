@@ -8,7 +8,7 @@ const BuscadorPokemon = () => {
     const [pokemon_name, set_pokemon_name] = React.useState("pikachu");
     return(
         <div className="form-group">
-            <label htmlFor="buscar_pokemon" className="text-white">Titulo</label>
+            <label htmlFor="buscar_pokemon" className="text-white">Esto es un cambio</label>
             <input type="text" className="form-control" id="buscar_pokemon" 
             value={pokemon_name}
             onChange={
